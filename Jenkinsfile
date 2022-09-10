@@ -32,5 +32,11 @@ pipeline {
             }
         }
         
+        stage('Finished') {
+            steps {
+                echo 'Releasing'
+            }
+        }
+        
     }
 }
